@@ -1,4 +1,4 @@
-package loops.taskTwo;
+package loops.taskTwo_hospital;
 
 import java.util.Scanner;
 

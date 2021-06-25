@@ -1,17 +1,24 @@
-package loops.taskTwo;
+package skladowe_statyczne;
 
-public class Patient {
+public class Student {
+
+
+    private static int studentsNumber = 0;
+
     private String firstName;
     private String lastName;
-    private String pesel;
+    private int index;
 
-    public Patient(String firstName, String lastName, String pesel) {
+    public Student(String firstName, String lastName, int index) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.pesel = pesel;
+        this.index = index;
+        studentsNumber++;
     }
 
-    public Patient() {
+
+    public static int getStudentsNumber() {
+        return studentsNumber;
     }
 
     public String getFirstName() {
@@ -30,11 +37,11 @@ public class Patient {
         this.lastName = lastName;
     }
 
-    public String getPesel() {
-        return pesel;
+    public int getIndex() {
+        return index;
     }
 
-    public void setPesel(String pesel) {
-        this.pesel = pesel;
+    public void setIndex(int index) {
+        this.index = index;
     }
 }

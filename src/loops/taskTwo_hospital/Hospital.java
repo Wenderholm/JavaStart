@@ -1,7 +1,7 @@
-package loops.taskTwo;
+package loops.taskTwo_hospital;
 
 public class Hospital {
-    private final int maxPatientsNumber = 1;
+    private final int maxPatientsNumber = 3;
     private Patient[] patients = new Patient[maxPatientsNumber];
     private int regPatient;
 
