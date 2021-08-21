@@ -1,12 +1,12 @@
 package equalComputerShop;
 
 public class DataStore {
-    private final int maxComputerNumber = 100;
-    private Computer[] computers = new Computer[maxComputerNumber];
+    private final int MAX_COMP_NUMBER = 100;
+    private Computer[] computers = new Computer[MAX_COMP_NUMBER];
     private int computersNumber;
 
     public void add(Computer computer){
-        if(computersNumber < maxComputerNumber && computer != null){
+        if(computersNumber < MAX_COMP_NUMBER && computer != null){
             computers[computersNumber] = computer;
             computersNumber++;
         } else {
