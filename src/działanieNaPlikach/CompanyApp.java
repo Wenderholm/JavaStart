@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class CompanyApp {
-    private static final String FILE_NAME = "employe.info";
+    private static final String FILE_NAME = "E:\\test\\employe.info";
     private static final int READ_FROM_USER = 1;
     private static final int READ_FROM_FILE = 2;
 
