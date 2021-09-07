@@ -25,3 +25,4 @@ public class NamesIterator {
         }
     }
 }
+//dodawnie do mapy z klawiatury
