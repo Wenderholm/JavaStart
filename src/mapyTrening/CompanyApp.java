@@ -25,7 +25,6 @@ public class CompanyApp {
                     break;
                 case FIND_EMPLOEE:
                     findEmployee(company);
-
                     break;
                 case SHOW:
                     company.showAll();
