@@ -1,4 +1,4 @@
-package metody_konstruktory;
+package metody_konstruktory.calculate;
 
 public class TimeConventer {
         int hoursToMinutes(int hours) {
