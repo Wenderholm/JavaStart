@@ -1,4 +1,4 @@
-package metody_konstruktory;
+package metody_konstruktory.calculate;
 
 public class Calculator {
     double add(double x, double y){
