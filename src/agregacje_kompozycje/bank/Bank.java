@@ -1,4 +1,4 @@
-package agregacje_kompozycje_bank;
+package agregacje_kompozycje.bank;
 
 public class Bank {
     public static void main(String[] args) {
