@@ -1,4 +1,4 @@
-package klasy_obiekty;
+package klasy_obiekty.companyExerciseOne;
 
 public class Employee {
     String firstName;
