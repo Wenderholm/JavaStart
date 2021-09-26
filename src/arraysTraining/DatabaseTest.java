@@ -10,8 +10,9 @@ public class DatabaseTest {
         Person person = database.get(3);
         System.out.println(person);
         System.out.println(database);
-        database.remove(new Person("Patryk", "Bielecki", "45678"));
-        database.remove(new Person("Jan", "Kowalski", "12345"));
+//        database.remove(new Person("Patryk", "Bielecki", "45678"));
+//        database.remove(new Person("Jan", "Kowalski", "12345"));
+        database.removeByName("Karol");
         System.out.println(database);
     }
 }

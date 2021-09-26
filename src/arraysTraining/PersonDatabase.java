@@ -38,6 +38,26 @@ public class PersonDatabase {
 
         }
     }
+
+    void removeByName(String name){
+        if ( name == null)
+            throw new NullPointerException("osoba nie moze byc null-em");
+        final int notFound = -1;
+        int foundIndex = notFound;
+        for (int i = 0; i < emptyPlace && foundIndex == notFound; i++) {
+            if(name.equals(people[i].getFirstName())){
+                foundIndex = i;
+            }
+        }
+        if( foundIndex != notFound){
+//          stworzenie tablicy bez elementy ze znalezionym indeksem
+            System.arraycopy(people, foundIndex+1, people, foundIndex, people.length-foundIndex-1);
+            emptyPlace--;
+            people[emptyPlace]=null;
+
+        }
+    }
+
     Person get(int index) {
         if (index >= emptyPlace || index < 0)
             throw new ArrayIndexOutOfBoundsException("Index has to be positive and lower than " + emptyPlace);
