@@ -1,4 +1,4 @@
-package skladowe_statyczne;
+package skladowe_statyczne.zad1Student;
 
 public class University {
     public static void main(String[] args) {

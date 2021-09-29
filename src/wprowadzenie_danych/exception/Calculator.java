@@ -1,4 +1,6 @@
-package exception;
+package wprowadzenie_danych.exception;
+
+import wprowadzenie_danych.exception.UnknownOperatorException;
 
 class Calculator {
     private static final String PLUS = "+";

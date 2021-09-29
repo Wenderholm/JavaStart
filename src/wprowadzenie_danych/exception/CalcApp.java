@@ -1,4 +1,5 @@
-package exception;
+package wprowadzenie_danych.exception;
+
 
 import java.util.InputMismatchException;
 import java.util.Locale;

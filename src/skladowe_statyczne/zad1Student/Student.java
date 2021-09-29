@@ -1,4 +1,4 @@
-package skladowe_statyczne;
+package skladowe_statyczne.zad1Student;
 
 public class Student {
 
