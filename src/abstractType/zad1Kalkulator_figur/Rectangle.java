@@ -1,4 +1,4 @@
-package abstractType;
+package abstractType.zad1Kalkulator_figur;
 
 public class Rectangle implements Shape {
     private double a;

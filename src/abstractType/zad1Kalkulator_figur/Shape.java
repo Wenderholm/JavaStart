@@ -1,4 +1,4 @@
-package abstractType;
+package abstractType.zad1Kalkulator_figur;
 
 interface Shape {
     int RECTANGLE = 1;

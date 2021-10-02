@@ -1,4 +1,4 @@
-package abstractType;
+package abstractType.zad1Kalkulator_figur;
 
 public class Circle implements Shape {
     private double r;

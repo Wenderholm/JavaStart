@@ -1,4 +1,4 @@
-package abstractType;
+package abstractType.zad1Kalkulator_figur;
 
 import java.util.NoSuchElementException;
 import java.util.Scanner;
